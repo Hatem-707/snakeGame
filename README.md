@@ -1,1 +1,1 @@
-## the assets are belong to JROB774 and can be accessed here [text](https://opengameart.org/content/snake-graphics)
+## the assets are belong to JROB774 and can be accessed here [OpenGameArt](https://opengameart.org/content/snake-graphics)
