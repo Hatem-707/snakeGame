@@ -247,13 +247,10 @@ int main() {
   SetTargetFPS(60);
   srand(time(0));
 
-  Texture2D assets =
-      LoadTexture("/home/hatem/Development/cpp/snakeGame/assets/Textures.png");
+  Texture2D assets = LoadTexture("assets/Textures.png");
   Vector2 assetGrid = {(float)assets.width / 7, (float)assets.height / 2};
-  Texture2D startScreen = LoadTexture(
-      "/home/hatem/Development/cpp/snakeGame/assets/StartScreen.png");
-  Texture2D loseScreen = LoadTexture(
-      "/home/hatem/Development/cpp/snakeGame/assets/LoseScreen.png");
+  Texture2D startScreen = LoadTexture("assets/StartScreen.png");
+  Texture2D loseScreen = LoadTexture("assets/LoseScreen.png");
 
   GameState state = GameState::starting;
   Rectangle fullScreenSource = {0.f, 0.f, (float)startScreen.width,
